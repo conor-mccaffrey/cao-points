@@ -1,1 +1,6 @@
-requests
+request
+re (regular expressions)
+datetime
+urllib
+pandas 
+seaborn

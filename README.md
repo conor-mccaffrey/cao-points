@@ -27,3 +27,19 @@ The second column gives the MID figure, that is, the points score of the applica
 #
 #
 #
+
+
+References
+1. https://www.cao.ie/ 
+2. http://www.cao.ie/index.php?page=points&p=2021  
+3. https://docs.python-requests.org/en/latest/
+4. https://docs.python.org/3/library/datetime.html
+5. https://docs.python.org/3/library/re.html
+6. https://automatetheboringstuff.com/chapter8/
+7. https://pandas.pydata.org/
+8. https://docs.python.org/3/library/urllib.html
+9. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.iloc.html
+10. https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html
+11. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html
+12. https://pandas.pydata.org/docs/reference/api/pandas.concat.html
+13. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html
