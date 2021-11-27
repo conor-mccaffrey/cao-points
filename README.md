@@ -43,3 +43,11 @@ References
 11. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html
 12. https://pandas.pydata.org/docs/reference/api/pandas.concat.html
 13. https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html
+14. https://thispointer.com/python-pandas-count-number-of-nan-or-missing-values-in-dataframe-also-row-column-wise/
+15. https://stackoverflow.com/questions/39128856/python-drop-row-if-two-columns-are-nan
+16. https://stackoverflow.com/questions/35465741/pandas-convert-column-with-empty-strings-to-float
+17. https://www.analyticsvidhya.com/blog/2021/05/a-comprehensive-guide-to-data-analysis-using-pandas-hands-on-data-analysis-on-imdb-movies-data/
+18. https://stackoverflow.com/questions/11285613/selecting-multiple-columns-in-a-pandas-dataframe
+19. https://realpython.com/pandas-plot-python/#survey-your-data
+20. https://plotly.com/python/subplots/
+21. https://pandas.pydata.org/docs/getting_started/intro_tutorials/03_subset_data.html
