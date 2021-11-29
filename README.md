@@ -23,7 +23,7 @@ re_course = re.compile(r'([A-Z]{2}[0-9]{3})  (.*)([0-9]{3})(\*?) *') # the .* is
 
 The second column gives the MID figure, that is, the points score of the applicant midwaybetween the highest and the lowest applicant being offered a place.
 #
-#
+#ff
 #
 #
 #
