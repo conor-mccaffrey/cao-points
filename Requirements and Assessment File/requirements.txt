@@ -1,3 +1,4 @@
+# Requirements to run the Notebook
 request
 re (regular expressions)
 datetime
@@ -7,3 +8,34 @@ seaborn
 matplotlib
 plotly
 warnings
+kaleido (for static images on Plotly,  'pip install -U kaleido' on cmdr)
+
+
+# Convenient HTTP requests.
+import requests as rq
+
+# Regular expressions.
+import re
+
+# Dates and times.
+import datetime as dt
+
+# Data frames. (dataframes is another way to say spreadsheets)
+import pandas as pd
+
+# For downloading.
+import urllib.request as urlrq
+
+# For plotting
+import seaborn as sns
+
+# For plotting
+import matplotlib.pyplot as plt
+
+# Enhanced Plotting wtih Plotly
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+import plotly.express as px
+
+import warnings
+warnings.filterwarnings("ignore")
