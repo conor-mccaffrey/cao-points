@@ -4,3 +4,6 @@ datetime
 urllib
 pandas 
 seaborn
+matplotlib
+plotly
+warnings
