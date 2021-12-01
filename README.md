@@ -54,4 +54,5 @@ References
 22. https://www.datasciencemadesimple.com/return-first-n-character-from-left-of-column-in-pandas-python/
 23. https://www.geeksforgeeks.org/plot-a-pie-chart-in-python-using-matplotlib/
 24. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. Wes McKinney. ISBN-13: 978-1491957660 ISBN-10: 1491957662
-25. https://stackoverflow.com/questions/48350850/subtract-two-columns-in-dataframe
+25. https://stackoverflow.com/questions/48350850/subtract-two-columns-in-dataframe.
+26. Automate the Boring Stuff with Python: Practical Programming for Total Beginners. Al Sweigart.  ISBN-13: 978-1593275990 ISBN-10: 1593275994
