@@ -1,35 +1,67 @@
-# cao-points
-# Remove commas, to remove tage  <[^>]*> in CTRL H    
-# Remove Headings and go tos...
-# Download file, remove tags,
-# Python regular expression library helps with datasets
-# File is really 3 fields (for CSV format). AL801, NameofCourse, Points
-# Use regular expression to match stuff , not just delete. 
-# Look 20 mins into video for instructions  
-# Learn regular expressions
+# Fundamentals of Data Analysis
+## Author: Conor McCaffrey
+
+INCLUDE IMAGE HERE OF JUPYTER, PYTHON, MATPLOTLIB, GMIT
+
+This repository contians Jupyter notebooks and relevant files demonstrating the use of `pandas` , `numpy` , `matplotlib` and other packages in the analysis of CAO points from 2021,2020,2019 and the exploration of the `matplotlib.pyplot` Python package.
+
+Include more info on ti
+
+### Install
+
+Steps to install...
+1. f
+2. df
+3. fgf
+
+### Run
+
+Here is how to run the project/notebooks:
+1. Open terminal.
+2. Run Jupyter with `.ipynb`.
+3. Go to browser.
+4. 
+
+### Explore
+
+Have a look at the two notebooks in this repo in Jupyter.
+Some interesting aspects:
+
+- The notebook `plots.ipynb` has three difference plot types as examples. You can edit the parameters of the plots to see different effects.
+
+Change the following code and see how the plot changes:
+
+```python
+sdxcvbnm
+```
+### Credits
+
+####
+
+I heavily relied on StackOverflow for solving many issues in the generation of the two notebooks. You can find the main homepage here for Python queries: [StackOverflow](https://stackoverflow.com/questions/tagged/python)
 
 
-# Compile the regular expression for matching lines.
-re_course = re.compile(r'([A-Z]{2}[0-9]{3})  (.*)([0-9]{3})(\*?) *') # the .* is filler, can be basically anything. we are using it for the course name and spaces at end
-# the 'r' at front means 'raw'. If you put at front it means 'dont evaluate backslashes'. Treat as a raw string
-# (\*?) Asterik means 'zero or more of'. + means 1 or more of. "88*", asterik applies to second 8. this meams "8+" one or more eights
-# (\*?) Backslah means dont treat asterik as a quantifer, treat as a backslash. Question mark is the quantifier, it means zero or one of.
- # Space with asterik means any number of spaces
-#
-#
-#
-#
-#Two columns of figures appear after each course in this year's CAO spread which you can download here. The first column gives the FINAL CUT-OFF points, in other word, the points score achieved by the last applicant being offered a place on that course in 2008.
 
-The second column gives the MID figure, that is, the points score of the applicant midwaybetween the highest and the lowest applicant being offered a place.
-#
-#ff
-#
-#
-#
+Needs to answer the following
+
+Motivation
+What problem does it solve
+what did you learn
+what makes your project stand out
+
+Mention the warning
+
+## Troubleshooting
+Mention the warning
+
+
+## Conclusion
+
+
 
 
 References
+CAO-Points
 1. https://www.cao.ie/ 
 2. http://www.cao.ie/index.php?page=points&p=2021  
 3. https://docs.python-requests.org/en/latest/
@@ -56,3 +88,13 @@ References
 24. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. Wes McKinney. ISBN-13: 978-1491957660 ISBN-10: 1491957662
 25. https://stackoverflow.com/questions/48350850/subtract-two-columns-in-dataframe.
 26. Automate the Boring Stuff with Python: Practical Programming for Total Beginners. Al Sweigart.  ISBN-13: 978-1593275990 ISBN-10: 1593275994
+
+Matplotlib
+1. rfgr
+
+
+## Contact
+
+***
+Conor McCaffrey
+[cmcaff@outlook.com](mailto:cmcaff@outlook.com)
