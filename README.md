@@ -1,31 +1,50 @@
-# Fundamentals of Data Analysis
+# <u> Fundamentals of Data Analysis </u>
 ## Author: Conor McCaffrey
 
-INCLUDE IMAGE HERE OF JUPYTER, PYTHON, MATPLOTLIB, GMIT
+![jupyter.png](Images/jupyter.png)
+<i>Reference 1 </i>
 
 This repository contians Jupyter notebooks and relevant files demonstrating the use of `pandas` , `numpy` , `matplotlib` and other packages in the analysis of CAO points from 2021,2020,2019 and the exploration of the `matplotlib.pyplot` Python package.
 
-Include more info on ti
+![matpy.png](Images/matpy.png)
+<i>Reference 2</i>
 
-### Install
+The notebook `cao-points-analysis.ipynb` contains a detailed analysis of CAO points in 2019, 2020 and 2021. Some interesting observations were deducted from our analysis. This is acheived through the incorporation of `pandas` dataframe, histograms, scatterplots and pie-charts. `Matplotlib` , `seaborn` and `plotly` were heavily incorporated for this notebook. `Plotly` was brought into this notebook as I believe the plots to be more accessible than through `matplotlib`. A challenge here however, is that `plotly` will not render on GitHub (so in this case I saved the figures and laoded them onto the notebook) but they render perfectly using `nbviewer` and `binder`.
 
-Steps to install...
-1. f
-2. df
-3. fgf
+This notebook would be suitable for people looking to see differences in points between certain CAO courses over the period 2019-2021 and also for identifying trends in courses (i.e Top 5 courses). I think this would be a beneficial tool for everyone as I don't think it currently exisits (not that I have seen anyway).
+
+You can view the static version of the  `cao-points-analysis.ipynb`  notebook by clicking the following button:
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/cao-points-analysis.ipynb)
+
+
+Alternatively, you can view the notebook in dynamic form by clicking the following button:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
+
+### Installation
+
+1. Download Anaconda if space permits. 
+2. Alternatively, download the latest version of Python (3.10.0).
+3. Consult `requirements.txt` for packages used in the notebook. 
 
 ### Run
 
-Here is how to run the project/notebooks:
-1. Open terminal.
-2. Run Jupyter with `.ipynb`.
-3. Go to browser.
-4. 
+Here is how to run the `cao-points-analysis.ipynb` notebook:
+1. Open cmdr terminal.
+2. Go to notebook location.
+3. Run Jupyter with `cao-points-analysis.ipynb` using code `Jupyter Notebook`.   
+4. Copy code in cmdr if page does not load automatically.
+
+Here is how to run the `pyplots.ipynb` notebook:
+
+
+
 
 ### Explore
 
 Have a look at the two notebooks in this repo in Jupyter.
-Some interesting aspects:
+Some interesting aspects for `pyplot.ipynb`:
 
 - The notebook `plots.ipynb` has three difference plot types as examples. You can edit the parameters of the plots to see different effects.
 
@@ -34,6 +53,25 @@ Change the following code and see how the plot changes:
 ```python
 sdxcvbnm
 ```
+
+Some interesting aspects for `cao-points-analysis.ipynb`:
+
+- The notebook `cao-points-analysis.ipynb` contains a detailed analysis of CAO points from 2019-2021.
+- Some courses contain no data which is clearly an error on the CAO team's part. 
+- We have delved into 'points differences' in the certain courses over a period of years which is very informative.
+- There is a wealth of information to be gleaned from these datasets. For example, the parameters in a lot of code can be altered to display difference results. The following code can be easily altered to compare difference parameters:
+```python
+# Let's look at the value differences between some courses in this dataframe
+# Let's convert our Points_R1_2021 column to a float as it is currently an 'object'
+level_seven_clean['Points_R1_2021']= pd.to_numeric(level_seven_clean['Points_R1_2021'], errors='coerce').astype('float')
+# Code to find the difference in values between EOS and Mid [25]
+level_seven_clean['Val_Diff'] = level_seven_clean['Points_Mid_2019'] - level_seven_clean['Points_R1_2021']
+# Let's display our result
+level_seven_clean.sort_values('Val_Diff', ascending = False).head(15)
+```
+  
+
+
 ### Credits
 
 ####
@@ -42,17 +80,17 @@ I heavily relied on StackOverflow for solving many issues in the generation of t
 
 
 
-Needs to answer the following
 
-Motivation
-What problem does it solve
-what did you learn
-what makes your project stand out
-
-Mention the warning
 
 ## Troubleshooting
-Mention the warning
+```python
+
+import warnings
+warnings.filterwarnings("ignore")
+```
+The warning package was incorporated into the CAO notebook in order to allow to following code to execute with no warning message. The code executed fine, this was just with the appearance in mind.
+
+
 
 
 ## Conclusion
@@ -60,7 +98,7 @@ Mention the warning
 
 
 
-References
+## References
 CAO-Points
 1. https://www.cao.ie/ 
 2. http://www.cao.ie/index.php?page=points&p=2021  
@@ -92,6 +130,9 @@ CAO-Points
 Matplotlib
 1. rfgr
 
+README
+1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+2. https://morioh.com/p/9860e0021ad9
 
 ## Contact
 
