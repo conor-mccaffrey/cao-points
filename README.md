@@ -140,17 +140,27 @@ CAO-Points
 Matplotlib
 1. https://morioh.com/p/9860e0021ad9
 2. https://stackoverflow.com/questions/58185487/how-to-read-csv-file-into-jupyter-notebook
-3. 
-
-README
-1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
-2. https://morioh.com/p/9860e0021ad9
 3. Marshall, Michael 2019. Iris Data Set. Available from: http://archive.ics.uci.edu/ml/datasets/Iris
 4. Python Data Science Handbook. Jake VanderPlas. ISBN: 9781491912058
 5. https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
 6. Python and Matplotlib Essentials for Scientists and Engineers. Matt A Wood. Online ISBN: 978-1-6270-5620-5
 7. Matplotlib for Python Developers. Sandro Tosi. ISBN: 9781847197900
-8. 
+8. https://realpython.com/python-matplotlib-guide/
+9. https://numpy.org/doc/stable/reference/random/index.html
+10. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.html#module-matplotlib.pyplot
+11. https://htmlcolorcodes.com/
+12. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot
+13. https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
+14. https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.annotate.html
+15. https://matplotlib.org/stable/tutorials/introductory/customizing.html
+16. https://jakevdp.github.io/PythonDataScienceHandbook/04.11-settings-and-stylesheets.html
+17. https://matplotlib.org/stable/tutorials/introductory/customizing.html
+18. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axvline.html
+
+README
+1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+2. https://morioh.com/p/9860e0021ad9
+
 
 ## Contact
 
