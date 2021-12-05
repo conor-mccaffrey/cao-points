@@ -23,14 +23,16 @@ Alternatively, you can view the notebook in dynamic form by clicking the followi
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
 
 ***
+
+INFO ON MATPLOTLIB NOTEBOOK
 You can view the static version of the  `pyplot.ipynb`  notebook by clicking the following button:
 
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/cao-points-analysis.ipynb)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/pyplot.ipynb)
 
 
 Alternatively, you can view the notebook in dynamic form by clicking the following button:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=pyplot.ipynb)
 
 ### Installation
 
@@ -47,7 +49,10 @@ Here is how to run the `cao-points-analysis.ipynb` notebook:
 4. Copy code in cmdr if page does not load automatically.
 
 Here is how to run the `pyplots.ipynb` notebook:
-
+1. Open cmdr terminal.
+2. Go to notebook location.
+3. Run Jupyter with `pyplot.ipynb` using code `Jupyter Notebook`.   
+4. Copy code in cmdr if page does not load automatically.
 
 
 
@@ -156,6 +161,7 @@ Matplotlib
 16. https://jakevdp.github.io/PythonDataScienceHandbook/04.11-settings-and-stylesheets.html
 17. https://matplotlib.org/stable/tutorials/introductory/customizing.html
 18. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axvline.html
+19. https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html
 
 README
 1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
