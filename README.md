@@ -9,9 +9,23 @@ This repository contians Jupyter notebooks and relevant files demonstrating the 
 ![matpy.png](Images/matpy.png)
 <i>Reference 2</i>
 
+The `pyplot.ipynb` notebook serves as an overview of the `matplotlib.pyplot` Python package. Here, I have described the background and advantages of using `matplotlib`, the dual interfaces of `matplotlib` and then gone into extensive detail on three plots available in the package. 
+
+This notebook is not only of use to those who want to gain familiarity with `matplotlib`, but it also serves as a resource for how to edit parameters of plots available in the package. This notebook is a resource that can be visited numerous times to solve a range of issues regarding the plotting of datasets in `python` and `jupyter`.
+
+You can view the static version of the  `pyplot.ipynb`  notebook by clicking the following button:
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/pyplot.ipynb)
+
+
+Alternatively, you can view the notebook in dynamic form by clicking the following button:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=pyplot.ipynb)
+
+***
 The notebook `cao-points-analysis.ipynb` contains a detailed analysis of CAO points in 2019, 2020 and 2021. Some interesting observations were deducted from our analysis. This is acheived through the incorporation of `pandas` dataframe, histograms, scatterplots and pie-charts. `Matplotlib` , `seaborn` and `plotly` were heavily incorporated for this notebook. `Plotly` was brought into this notebook as I believe the plots to be more accessible than through `matplotlib`. A challenge here however, is that `plotly` will not render on GitHub (so in this case I saved the figures and laoded them onto the notebook) but they render perfectly using `nbviewer` and `binder`.
 
-This notebook would be suitable for people looking to see differences in points between certain CAO courses over the period 2019-2021 and also for identifying trends in courses (i.e Top 5 courses). I think this would be a beneficial tool for everyone as I don't think it currently exisits (not that I have seen anyway).
+This notebook would be suitable for people looking to see differences in points between certain CAO courses over the period 2019-2021 and also for identifying trends in courses (i.e Top 5 courses). I think this would be a beneficial tool for everyone as I don't think it currently exists (not that I have seen anyway).
 
 You can view the static version of the  `cao-points-analysis.ipynb`  notebook by clicking the following button:
 
@@ -22,17 +36,6 @@ Alternatively, you can view the notebook in dynamic form by clicking the followi
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
 
-***
-
-INFO ON MATPLOTLIB NOTEBOOK
-You can view the static version of the  `pyplot.ipynb`  notebook by clicking the following button:
-
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/pyplot.ipynb)
-
-
-Alternatively, you can view the notebook in dynamic form by clicking the following button:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=pyplot.ipynb)
 
 ### Installation
 
@@ -63,10 +66,22 @@ Some interesting aspects for `pyplot.ipynb`:
 
 - The notebook `plots.ipynb` has three difference plot types as examples. You can edit the parameters of the plots to see different effects.
 
-Change the following code and see how the plot changes:
+Change the following code (numbers and colours) and see how the plot changes in respect to its appearance:
 
 ```python
-sdxcvbnm
+line_props = dict(alpha=0.7)
+boxprops = dict(linestyle='dashdot', linewidth=3, color='blue')
+flierprops = dict(marker='o', markersize=10, markerfacecolor = 'y', markeredgecolor='black' )
+# Let's plot
+plt.figure(figsize=(18,10))
+with plt.style.context('seaborn'):
+    data_updated = data[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']]
+    # set properties for fliers, box and whiskers. Changed width of boxes.
+    plt.boxplot(data_updated, labels = ('sepal_length', 'sepal_width', 'petal_length', 'petal_width'),
+               whiskerprops = line_props, boxprops = boxprops, flierprops = flierprops, widths = 0.4 ) 
+    plt.suptitle('Boxplot of Iris Fisher Data Variables') # add title
+    plt.xlabel('Variable') # x axis label
+    plt.ylabel('cm') # y axis label
 ```
 
 Some interesting aspects for `cao-points-analysis.ipynb`:
@@ -103,15 +118,17 @@ I heavily relied on StackOverflow for solving many issues in the generation of t
 import warnings
 warnings.filterwarnings("ignore")
 ```
-The warning package was incorporated into the CAO notebook in order to allow to following code to execute with no warning message. The code executed fine, this was just with the appearance in mind.
-
-
+The warning package was incorporated into the notebooks in order to allow to following code to execute with no warning message. The code executed fine, this was just with the appearance in mind.
 
 
 ## Conclusion
 
+The notebooks contained in this repository serve as a great resource into various aspects of coding: 
+- The use of `python` and `jupyter`
+- The use of `pandas`, `numpy` and `matplotlib`
+- Overview of functionalities of plotting
 
-
+These aspects are the foundation of good programming and therefore this repository can be consulted at any stage. The `pyplot.ipynb` and `cao=points-analysis.ipynb` noteboos have taken a dataset, prepared it for analyses and then plotted results i.e the whole process flow we would meet in industry when given a dataset to analyse.
 
 ## References
 CAO-Points
@@ -167,7 +184,8 @@ Matplotlib
 22. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html#matplotlib.pyplot.boxplot
 23. https://www.dummies.com/education/math/statistics/what-a-boxplot-can-tell-you-about-a-statistical-data-set/
 24. https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/statistics-intro-mean-median-and-mode#:~:text=The%20mean%20(average)%20of%20a,ordered%20from%20least%20to%20greatest.
-25. https://sodocumentation.net/matplotlib/topic/6368/boxplots
+25. https://sodocumentation.net/matplotlib/topic/6368/boxplotshttps://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html
+26. 
 
 
 README
