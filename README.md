@@ -162,6 +162,13 @@ Matplotlib
 17. https://matplotlib.org/stable/tutorials/introductory/customizing.html
 18. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axvline.html
 19. https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html
+20. https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/
+21. https://www.analyticsvidhya.com/blog/2020/02/beginner-guide-matplotlib-data-visualization-exploration-python/
+22. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html#matplotlib.pyplot.boxplot
+23. https://www.dummies.com/education/math/statistics/what-a-boxplot-can-tell-you-about-a-statistical-data-set/
+24. https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/statistics-intro-mean-median-and-mode#:~:text=The%20mean%20(average)%20of%20a,ordered%20from%20least%20to%20greatest.
+25. https://sodocumentation.net/matplotlib/topic/6368/boxplots
+
 
 README
 1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
