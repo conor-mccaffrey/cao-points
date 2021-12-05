@@ -22,6 +22,16 @@ Alternatively, you can view the notebook in dynamic form by clicking the followi
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
 
+***
+You can view the static version of the  `pyplot.ipynb`  notebook by clicking the following button:
+
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/conor-mccaffrey/fundamentals_of_Data_Analysis/blob/main/cao-points-analysis.ipynb)
+
+
+Alternatively, you can view the notebook in dynamic form by clicking the following button:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/conor-mccaffrey/fundamentals_of_Data_Analysis/main?filepath=cao-points-analysis.ipynb)
+
 ### Installation
 
 1. Download Anaconda if space permits. 
@@ -128,11 +138,19 @@ CAO-Points
 26. Automate the Boring Stuff with Python: Practical Programming for Total Beginners. Al Sweigart.  ISBN-13: 978-1593275990 ISBN-10: 1593275994
 
 Matplotlib
-1. rfgr
+1. https://morioh.com/p/9860e0021ad9
+2. https://stackoverflow.com/questions/58185487/how-to-read-csv-file-into-jupyter-notebook
+3. 
 
 README
 1. https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 2. https://morioh.com/p/9860e0021ad9
+3. Marshall, Michael 2019. Iris Data Set. Available from: http://archive.ics.uci.edu/ml/datasets/Iris
+4. Python Data Science Handbook. Jake VanderPlas. ISBN: 9781491912058
+5. https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
+6. Python and Matplotlib Essentials for Scientists and Engineers. Matt A Wood. Online ISBN: 978-1-6270-5620-5
+7. Matplotlib for Python Developers. Sandro Tosi. ISBN: 9781847197900
+8. 
 
 ## Contact
 
