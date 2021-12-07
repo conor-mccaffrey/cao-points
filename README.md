@@ -185,7 +185,17 @@ Matplotlib
 23. https://www.dummies.com/education/math/statistics/what-a-boxplot-can-tell-you-about-a-statistical-data-set/
 24. https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-data-statistics/mean-and-median/v/statistics-intro-mean-median-and-mode#:~:text=The%20mean%20(average)%20of%20a,ordered%20from%20least%20to%20greatest.
 25. https://sodocumentation.net/matplotlib/topic/6368/boxplotshttps://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_numpy.html
-26. 
+26. https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/what-are-categorical-discrete-and-continuous-variables/
+27. https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+28. https://matplotlib.org/stable/gallery/statistics/histogram_cumulative.html
+29. https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.cumfreq.html
+30. https://www.andata.at/en/software-blog-reader/why-we-love-the-cdf-and-do-not-like-histograms-that-much.html
+31. https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+32. https://pmstudycircle.com/scatter-diagram/
+33. https://www.tutorialspoint.com/matplotlib/matplotlib_violin_plot.htm
+34. https://chartio.com/learn/charts/violin-plot-complete-guide/
+35. https://pretagteam.com/question/changing-the-color-of-matplotlibs-violin-plots
+36. https://stackoverflow.com/questions/69038625/change-the-color-of-the-individual-max-and-mean-line-in-a-violin-plot-using-matp
 
 
 README
